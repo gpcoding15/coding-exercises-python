@@ -1,13 +1,3 @@
-# GET /users/123
-
-# Que devuelva:
-
-# {
-#   "user_id": 123
-# }
-
-# Usando un path parameter.
-
 from fastapi import FastAPI
 
 app = FastAPI()
